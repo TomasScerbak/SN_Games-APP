@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>platforms_flow</internal_name>
+        <label_cache>[{"name":"51db8a53-7620-4f5f-81ad-5757aa6ae53f.platforms","label":"1 - Platform API➛Platforms","reference_display":"Platforms","type":"array.object","base_type":"array.object","attributes":{"sourceId":"589147e7-cd20-4d86-8293-ecef57f2d4ee","pwd2droppable":"true","child_name":"results_object","uiUniqueId":"1439ac48-c2df-4784-b506-dffc992d0a48","uiTypeLabel":"Array.Object","co_type_name":"FD01244a3300b57110f425d11f15708ad5","child_label":"results_object","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"a99c7234-f958-48e1-84ae-ab1c13e1e2fb","uiType":"array.object","child_type":"object","child_uiUniqueId":"a7f92596-9615-4c10-b593-0b51d613c9a7"}},{"name":"e131d848-cbc9-45e0-8b71-ee56ffa48990.item.name","label":"2 - For Each➛results_object➛name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"e131d848-cbc9-45e0-8b71-ee56ffa48990.item.id","label":"2 - For Each➛results_object➛id","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Platforms Flow</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-17 09:19:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f9c30ebf97757110d973be9fe153af2b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Platforms Flow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Games" source="x_1115228_games">3f4ee01697f13110d973be9fe153af17</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Games">3f4ee01697f13110d973be9fe153af17</sys_scope>
+        <sys_update_name>sys_hub_flow_f9c30ebf97757110d973be9fe153af2b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-17 09:24:42</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=f9c30ebf97757110d973be9fe153af2b"/>
+    <sys_variable_value action="delete_multiple" query="document_key=f9c30ebf97757110d973be9fe153af2b"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=f9c30ebf97757110d973be9fe153af2b^sys_idNOT IN76d40a7397b57110d973be9fe153affb"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Platforms Flow">f9c30ebf97757110d973be9fe153af2b</flow>
+        <name>Run Once</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-17 09:24:05</sys_created_on>
+        <sys_id>76d40a7397b57110d973be9fe153affb</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-17 09:24:42</sys_updated_on>
+        <trigger_definition display_value="Run Once">0a76e504c32222002841b63b12d3aeac</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>run_once</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=76d40a7397b57110d973be9fe153affb"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>76d40a7397b57110d973be9fe153affb</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-17 09:24:05</sys_created_on>
+        <sys_id>3ad40a7397b57110d973be9fe153affc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-17 09:24:05</sys_updated_on>
+        <value>2023-10-17 09:00:00</value>
+        <variable display_value="Run in">92afcd94c32222002841b63b12d3aee8</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_input_0a76e504c32222002841b63b12d3aeac^id=76d40a7397b57110d973be9fe153affb"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=f9c30ebf97757110d973be9fe153af2b"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=f9c30ebf97757110d973be9fe153af2b^sys_idNOT INf5c30ebf97757110d973be9fe153af2c"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>f9c30ebf97757110d973be9fe153af2b</id>
+        <name>Platforms Flow</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-17 09:19:22</sys_created_on>
+        <sys_id>f5c30ebf97757110d973be9fe153af2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-17 09:19:22</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=f5c30ebf97757110d973be9fe153af2c"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=f9c30ebf97757110d973be9fe153af2b"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=f9c30ebf97757110d973be9fe153af2b"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f9c30ebf97757110d973be9fe153af2b"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=f9c30ebf97757110d973be9fe153af2b^sys_idNOT IN3ed44a7397b57110d973be9fe153af2e,f2d44a7397b57110d973be9fe153af38"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Platform API">4fe3c23397b57110d973be9fe153af83</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Platforms Flow">f9c30ebf97757110d973be9fe153af2b</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-17 09:24:05</sys_created_on>
+        <sys_id>3ed44a7397b57110d973be9fe153af2e</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Games">3f4ee01697f13110d973be9fe153af17</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-17 09:24:42</sys_updated_on>
+        <ui_id>51db8a53-7620-4f5f-81ad-5757aa6ae53f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3ed44a7397b57110d973be9fe153af2e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3ed44a7397b57110d973be9fe153af2e"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3ed44a7397b57110d973be9fe153af2e"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Platforms Flow">f9c30ebf97757110d973be9fe153af2b</flow>
+        <order>3</order>
+        <parent_ui_id>e131d848-cbc9-45e0-8b71-ee56ffa48990</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-17 09:24:05</sys_created_on>
+        <sys_id>f2d44a7397b57110d973be9fe153af38</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Games">3f4ee01697f13110d973be9fe153af17</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-17 09:24:42</sys_updated_on>
+        <ui_id>8561d013-af64-42ff-87d3-e9b81deedc05</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f2d44a7397b57110d973be9fe153af38"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f2d44a7397b57110d973be9fe153af38</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-17 09:24:05</sys_created_on>
+        <sys_id>3ed44a7397b57110d973be9fe153af39</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-17 09:24:42</sys_updated_on>
+        <value/>
+        <variable display_value="Fields">6de09916c31332002841b63b12d3ae1b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f2d44a7397b57110d973be9fe153af38</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-17 09:24:05</sys_created_on>
+        <sys_id>fed44a7397b57110d973be9fe153af39</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-17 09:24:05</sys_updated_on>
+        <value>x_1115228_games_platforms</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f2d44a7397b57110d973be9fe153af38"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>f2d44a7397b57110d973be9fe153af38</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-17 09:24:05</sys_created_on>
+        <sys_id>f6d44a7397b57110d973be9fe153af39</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-17 09:24:05</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>f2d44a7397b57110d973be9fe153af38</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-17 09:24:05</sys_created_on>
+        <sys_id>bad44a7397b57110d973be9fe153af39</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-17 09:24:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>name={{e131d848-cbc9-45e0-8b71-ee56ffa48990.item.name}}^id={{e131d848-cbc9-45e0-8b71-ee56ffa48990.item.id}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f2d44a7397b57110d973be9fe153af38"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f2d44a7397b57110d973be9fe153af38"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=f9c30ebf97757110d973be9fe153af2b"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=f9c30ebf97757110d973be9fe153af2b^sys_idNOT IN7ad44a7397b57110d973be9fe153af30"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">bed44a7397b57110d973be9fe153af2f</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Platforms Flow">f9c30ebf97757110d973be9fe153af2b</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-17 09:24:05</sys_created_on>
+        <sys_id>7ad44a7397b57110d973be9fe153af30</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Games">3f4ee01697f13110d973be9fe153af17</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-17 09:24:42</sys_updated_on>
+        <ui_id>e131d848-cbc9-45e0-8b71-ee56ffa48990</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=7ad44a7397b57110d973be9fe153af30"/>
+    <sys_element_mapping action="delete_multiple" query="id=7ad44a7397b57110d973be9fe153af30"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>7ad44a7397b57110d973be9fe153af30</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-17 09:24:05</sys_created_on>
+        <sys_id>32d44a7397b57110d973be9fe153af34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-17 09:24:05</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{51db8a53-7620-4f5f-81ad-5757aa6ae53f.platforms}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=7ad44a7397b57110d973be9fe153af30"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7ad44a7397b57110d973be9fe153af30"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=f9c30ebf97757110d973be9fe153af2b"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=f9c30ebf97757110d973be9fe153af2b"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_f9c30ebf97757110d973be9fe153af2b"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_f9c30ebf97757110d973be9fe153af2b"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_f9c30ebf97757110d973be9fe153af2b"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_f9c30ebf97757110d973be9fe153af2b"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=f9c30ebf97757110d973be9fe153af2b"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=f9c30ebf97757110d973be9fe153af2b"/>
+</record_update>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="28354bbb97b97110d973be9fe153af23" extends="sys_import_set_row" label="Games Data Source" max_length="40" name="x_1115228_games_game_import" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=added" label="added" max_length="40" name="u_added" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=added_by_status" label="added_by_status" max_length="98" name="u_added_by_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=background_image" label="background_image" max_length="74" name="u_background_image" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=clip" label="clip" max_length="40" name="u_clip" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=dominant_color" label="dominant_color" max_length="40" name="u_dominant_color" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=esrb_rating" label="esrb_rating" max_length="64" name="u_esrb_rating" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=genres" label="genres" max_length="734" name="u_genres" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=id" label="id" max_length="40" name="u_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=metacritic" label="metacritic" max_length="40" name="u_metacritic" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=name" label="name" max_length="40" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=parent_platforms" label="parent_platforms" max_length="522" name="u_parent_platforms" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=platforms" label="platforms" max_length="6179" name="u_platforms" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=playtime" label="playtime" max_length="40" name="u_playtime" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=rating" label="rating" max_length="40" name="u_rating" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=ratings" label="ratings" max_length="270" name="u_ratings" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=ratings_count" label="ratings_count" max_length="40" name="u_ratings_count" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=rating_top" label="rating_top" max_length="40" name="u_rating_top" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=released" label="released" max_length="40" name="u_released" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=reviews_count" label="reviews_count" max_length="40" name="u_reviews_count" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=reviews_text_count" label="reviews_text_count" max_length="40" name="u_reviews_text_count" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=saturated_color" label="saturated_color" max_length="40" name="u_saturated_color" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=short_screenshots" label="short_screenshots" max_length="773" name="u_short_screenshots" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=slug" label="slug" max_length="40" name="u_slug" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=stores" label="stores" max_length="2117" name="u_stores" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=suggestions_count" label="suggestions_count" max_length="40" name="u_suggestions_count" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=tags" label="tags" max_length="8619" name="u_tags" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=tba" label="tba" max_length="40" name="u_tba" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=updated" label="updated" max_length="40" name="u_updated" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=user_game" label="user_game" max_length="40" name="u_user_game" type="string"/>
+    </element>
+</database>

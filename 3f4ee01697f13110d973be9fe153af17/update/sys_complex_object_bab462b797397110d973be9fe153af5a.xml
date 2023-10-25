@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDf6b462b7313971107879ddcc19273b5a</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>3f4ee01697f13110d973be9fe153af17</scope_name>
+        <serialized_content>{"FlowDesigner:FDf6b462b7313971107879ddcc19273b5a":{"$COCollectionField":[{"Object":{}}],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDf6b462b7313971107879ddcc19273b5a.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Games\",\"mandatory\":\"false\",\"child_name\":\"games_child0\",\"uiUniqueId\":\"3ad3f511-ac07-4e3f-98e0-014fda5ca887\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDf6b462b7313971107879ddcc19273b5a\",\"child_label\":\"Games_child0\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"a1f169d6-55df-4792-8897-1a6cbf7b932b\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-17 11:43:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bab462b797397110d973be9fe153af5a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDf6b462b7313971107879ddcc19273b5a</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Games" source="x_1115228_games">3f4ee01697f13110d973be9fe153af17</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Games">3f4ee01697f13110d973be9fe153af17</sys_scope>
+        <sys_update_name>sys_complex_object_bab462b797397110d973be9fe153af5a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-17 11:43:21</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

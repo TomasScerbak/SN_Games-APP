@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f9e3b8de97f13110d973be9fe153af9a" label="Platforms" max_length="40" name="x_1115228_games_platforms" type="collection">
+        <element label="ID" max_length="40" name="id" type="integer"/>
+        <element display="true" label="Name" max_length="40" name="name" type="string"/>
+    </element>
+</database>

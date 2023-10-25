@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>false</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description>ACL for games users to see only games with Wii platform</description>
+        <name>x_1115228_games_games</name>
+        <operation display_value="read">read</operation>
+        <script><![CDATA[var currentUser = gs.getUserID();
+var user = new GlideRecord("sys_user");
+user.get(currentUser);
+
+var userPlatformID = user.u_platform.id.toString();
+var ids = current.platform.split(',');
+
+var result = false;
+
+if (ids.indexOf(userPlatformID) > -1) {
+    result = true;
+}
+
+answer = result;
+gs.info('TS from ACL ' + count);]]></script>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-12 11:28:30</sys_created_on>
+        <sys_id>f061fc5a97f13110d973be9fe153af42</sys_id>
+        <sys_mod_count>37</sys_mod_count>
+        <sys_name>x_1115228_games_games</sys_name>
+        <sys_package display_value="Games" source="x_1115228_games">3f4ee01697f13110d973be9fe153af17</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Games">3f4ee01697f13110d973be9fe153af17</sys_scope>
+        <sys_update_name>sys_security_acl_f061fc5a97f13110d973be9fe153af42</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-24 09:40:38</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Games">3f4ee01697f13110d973be9fe153af17</application>
+        <file_path/>
+        <instance_id>e13fb29cdb44b9dc05ef1729139619ef</instance_id>
+        <instance_name>dev180364</instance_name>
+        <name>sys_security_acl_f061fc5a97f13110d973be9fe153af42</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_security_acl"&gt;&lt;sys_security_acl action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;admin_overrides&gt;true&lt;/admin_overrides&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;condition/&gt;&lt;description&gt;ACL for games users to see only games with Wii platform&lt;/description&gt;&lt;name&gt;x_1115228_games_games&lt;/name&gt;&lt;operation display_value="read"&gt;read&lt;/operation&gt;&lt;script&gt;&lt;![CDATA[var currentUser = gs.getUserID();
+var user = new GlideRecord("sys_user");
+user.get(currentUser);
+
+var userPlatformID = user.u_platform.id.toString();
+var ids = current.platform.split(',');
+
+var result = false;
+
+if (ids.indexOf(userPlatformID) &gt; -1) {
+    result = true;
+}
+
+answer = result;
+gs.info('TS from ACL ' + count);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_security_acl&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-12 11:28:30&lt;/sys_created_on&gt;&lt;sys_id&gt;f061fc5a97f13110d973be9fe153af42&lt;/sys_id&gt;&lt;sys_mod_count&gt;37&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_1115228_games_games&lt;/sys_name&gt;&lt;sys_package display_value="Games" source="x_1115228_games"&gt;3f4ee01697f13110d973be9fe153af17&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Games"&gt;3f4ee01697f13110d973be9fe153af17&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_security_acl_f061fc5a97f13110d973be9fe153af42&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-24 09:40:38&lt;/sys_updated_on&gt;&lt;type display_value="record"&gt;record&lt;/type&gt;&lt;/sys_security_acl&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>9715068</payload_hash>
+        <record_name>x_1115228_games_games</record_name>
+        <reverted_from/>
+        <source>4032fc5e97f13110d973be9fe153af2d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-24 09:40:38</sys_created_on>
+        <sys_id>f1cb0a0297c27110d973be9fe153afe7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b610ec15c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-24 09:40:38</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>f9cb0a025fc27110f609e0bbcf31cbe6</update_guid>
+        <update_guid_history>f9cb0a025fc27110f609e0bbcf31cbe6:9715068,bf5b0ece15827110bcb4d1464e265136:1286781141,ea4b4acefb827110c53f32a2577c2580:9715068,0548460e84827110e37aefb62fc855d5:1286781141,5dd78ecadd82711014d7cce30bc59b7f:538869258,9b8782ca58827110ffcde2a44af7ed9f:331793947,29610e46a2827110ef4628d754d15530:-1441856190,455ff5c2308271106d294932ff044981:1492531817,2d56398ae0427110675b4c4715aab1fe:-1441856190,4236b18a5b427110469fc56014ac92a4:1492531817,4a06b18a4b427110aa94969396d910de:-1441856190,94b4310a434271107ab08799b8ea3475:1492531817,559ac23d638231109ecd300694ff84f2:-1441856190,220a4af92d823110c071ca60cc019442:-460818727,a2b9c2f90082311010a8854c42eabcb9:-806700586,736986f96d823110f5c3e8f9d83cd3ac:-571002801,7b49c2f9aa823110b4fc76af99d37e27:-2086540384,50398eb92e8231103c3e681cf7478afe:-1533853477,53d80eb9e0823110b5dec1dbd007bbd8:-1089410122,83180e79b3823110808e2b9ab82c474b:-154498456,c097c679d48231102e65d414ca486e85:-804971769,7537ca39cf823110848d10b524bd9d4f:617548897,d0d64a395c823110d5199f87dff72c3d:573970391,486682396f823110e0e26c2949d0b67c:832153050,e1e2ca35bb8231101d116dc1b48ba7f7:-1655721350,4de102f16c82311099eb9bc2e33c0bef:1059402528,5a61c2f16e823110f507ffbb264a40a0:-1353263178,16310eb1c782311098c732e62145f7d6:-1107769908,0ae08ab114823110df18e39f483c9abc:78245923,c2df39716f8231106e8206d62e5422f8:-1152291896,6dadb5fd6342311056bf71326ebc00a7:1883786630,230c7d7d0b423110ed73bba5f83b7ed5:2095481493,156a79f9d24231109ac72ea757389a99:-1004607599,dfd831b9c5423110ea63260576f4b27f:1967583373,abb73531234231107739051ca97f4596:-592307287,7a73b9f1ea423110c0aa6f11ed77031d:-1396961319,ee7461f5ad023110d46796b8f7ae5c31:1667651659,b861fc5a2ff13110872cc91b068de343:164349540</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-24 14:55:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>18023130f3ef440e99982f93f4685471</sys_id>
+        <sys_metadata>f061fc5a97f13110d973be9fe153af42</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1115228_games_games</sys_name>
+        <sys_package display_value="Games" source="x_1115228_games">3f4ee01697f13110d973be9fe153af17</sys_package>
+        <sys_parent display_value="x_1115228_games_games">ff51305e97f13110d973be9fe153afd8</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Games">3f4ee01697f13110d973be9fe153af17</sys_scope>
+        <sys_scope_delete display_value="">1f9d6bb52ada4d8a84068f5dd8a6c504</sys_scope_delete>
+        <sys_update_name>sys_security_acl_f061fc5a97f13110d973be9fe153af42</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_f061fc5a97f13110d973be9fe153af42">f1cb0a0297c27110d973be9fe153afe7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-24 14:55:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

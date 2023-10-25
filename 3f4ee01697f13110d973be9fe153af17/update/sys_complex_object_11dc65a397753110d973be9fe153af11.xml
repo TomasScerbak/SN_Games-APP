@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD5ddc65a377753110826d96b39ce72a10</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>3f4ee01697f13110d973be9fe153af17</scope_name>
+        <serialized_content>{"FlowDesigner:FD5ddc65a377753110826d96b39ce72a10":{"$COCollectionField":[{"results_child0":{"gameName":"String","gameName.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"gameName\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"eb2f168f-4b5d-4c2a-94ce-98f672b8974b\"}"},"gameRating":"Integer","gameRating.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"gameRating\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"63c880eb-7fe2-4712-94bd-b08bff22cd6f\"}"},"releaseDate":"Date","releaseDate.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Date/Time\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"glide_date_time\",\"default_value\":\"\",\"label\":\"releaseDate\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\",\"uiUniqueId\":\"eab10d81-7ed1-4d15-9f15-3cda719dd6ac\"}"},"gamePlaytime":"Integer","gamePlaytime.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"gamePlaytime\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"fe3613ad-0e82-4ef7-adb5-6b5a250997c4\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"4461b59c-9caa-467b-8fd1-6fb1ec3115f5\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"games\",\"mandatory\":\"false\",\"child_name\":\"results_child0\",\"uiUniqueId\":\"e43d5c91-8eca-4cf7-9635-ad942125871d\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD5ddc65a377753110826d96b39ce72a10\",\"child_label\":\"Results\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"3129e9ee-c593-417d-967a-e62cbd93924c\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"2\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"9c1c45bf-71c7-4e61-8124-00e7897dc85a\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD5ddc65a377753110826d96b39ce72a10.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"4461b59c-9caa-467b-8fd1-6fb1ec3115f5\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"games\",\"mandatory\":\"false\",\"child_name\":\"results_child0\",\"uiUniqueId\":\"e43d5c91-8eca-4cf7-9635-ad942125871d\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD5ddc65a377753110826d96b39ce72a10\",\"child_label\":\"Results\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"3129e9ee-c593-417d-967a-e62cbd93924c\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"2\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"9c1c45bf-71c7-4e61-8124-00e7897dc85a\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-16 13:00:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>11dc65a397753110d973be9fe153af11</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>FD5ddc65a377753110826d96b39ce72a10</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Games" source="x_1115228_games">3f4ee01697f13110d973be9fe153af17</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Games">3f4ee01697f13110d973be9fe153af17</sys_scope>
+        <sys_update_name>sys_complex_object_11dc65a397753110d973be9fe153af11</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-16 13:00:44</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

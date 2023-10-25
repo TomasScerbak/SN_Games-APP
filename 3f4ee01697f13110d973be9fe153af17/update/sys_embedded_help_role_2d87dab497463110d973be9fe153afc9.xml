@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_1115228_games.editor" name="x_1115228_games.editor">61779eb497463110d973be9fe153afaf</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-20 13:19:34</sys_created_on>
+        <sys_id>2d87dab497463110d973be9fe153afc9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>61779eb497463110d973be9fe153afaf</sys_name>
+        <sys_package display_value="Games" source="x_1115228_games">3f4ee01697f13110d973be9fe153af17</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Games">3f4ee01697f13110d973be9fe153af17</sys_scope>
+        <sys_update_name>sys_embedded_help_role_2d87dab497463110d973be9fe153afc9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-20 13:19:34</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

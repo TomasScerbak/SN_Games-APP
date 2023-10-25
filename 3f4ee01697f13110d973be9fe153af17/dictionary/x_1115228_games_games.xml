@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7b51305e97f13110d973be9fe153afd6" label="Games" max_length="40" name="x_1115228_games_games" type="collection">
+        <element label="ID" max_length="40" name="id" type="integer" unique="true"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Name" max_length="80" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Platform" max_length="100" name="platform" type="string"/>
+        <element label="Platform Names" max_length="100" name="platform_names" type="string"/>
+        <element label="Playtime" max_length="40" name="playtime" type="integer"/>
+        <element label="Rating" max_length="40" name="rating" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Released" max_length="40" name="released" type="glide_date_time"/>
+        <index name="index" unique="true">
+            <element name="id"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="25558e7397b57110d973be9fe153afbf" label="x_1115228_games_m2m_Platforms_Games" max_length="40" name="x_1115228_games_m2m_x_1115228_ga_x_1115228_ga" type="collection">
+        <element attributes="encode_utf8=false" label="Games" max_length="32" name="x_1115228_games_games" reference="x_1115228_games_games" type="reference"/>
+        <element attributes="encode_utf8=false" label="Platforms" max_length="32" name="x_1115228_games_platforms" reference="x_1115228_games_platforms" type="reference"/>
+        <index name="index">
+            <element name="x_1115228_games_games"/>
+        </index>
+        <index name="index2">
+            <element name="x_1115228_games_platforms"/>
+        </index>
+    </element>
+</database>

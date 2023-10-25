@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-12 11:28:30</sys_created_on>
+        <sys_id>bc61705e97f13110d973be9fe153afb5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1115228_games_games.x_1115228_games.user</sys_name>
+        <sys_package display_value="Games" source="x_1115228_games">3f4ee01697f13110d973be9fe153af17</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Games">3f4ee01697f13110d973be9fe153af17</sys_scope>
+        <sys_security_acl display_value="x_1115228_games_games">7061705e97f13110d973be9fe153afa7</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_bc61705e97f13110d973be9fe153afb5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-12 11:28:30</sys_updated_on>
+        <sys_user_role display_value="x_1115228_games.user" name="x_1115228_games.user">5cde249a97f13110d973be9fe153af49</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Games">3f4ee01697f13110d973be9fe153af17</application>
+        <file_path/>
+        <instance_id>e13fb29cdb44b9dc05ef1729139619ef</instance_id>
+        <instance_name>dev180364</instance_name>
+        <name>sys_security_acl_role_bc61705e97f13110d973be9fe153afb5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-10-12 11:28:30</sys_created_on><sys_id>bc61705e97f13110d973be9fe153afb5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1115228_games_games.x_1115228_games.user</sys_name><sys_package display_value="Games" source="x_1115228_games">3f4ee01697f13110d973be9fe153af17</sys_package><sys_policy/><sys_scope display_value="Games">3f4ee01697f13110d973be9fe153af17</sys_scope><sys_security_acl display_value="x_1115228_games_games">7061705e97f13110d973be9fe153afa7</sys_security_acl><sys_update_name>sys_security_acl_role_bc61705e97f13110d973be9fe153afb5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-10-12 11:28:30</sys_updated_on><sys_user_role display_value="x_1115228_games.user" name="x_1115228_games.user">5cde249a97f13110d973be9fe153af49</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>1067332504</payload_hash>
+        <record_name>x_1115228_games_games.x_1115228_games.user</record_name>
+        <reverted_from/>
+        <source>3b4ee01697f13110d973be9fe153af19</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-12 11:28:30</sys_created_on>
+        <sys_id>3461705e97f13110d973be9fe153afb8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b23a532ec0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-12 11:28:30</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>7861705ed2f131102d0f1f53a8334cb7</update_guid>
+        <update_guid_history>7861705ed2f131102d0f1f53a8334cb7:1067332504</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1115228_games_games.x_1115228_games.user">602465b597023110d973be9fe153af96</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-23 12:08:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>72eb352f0bf548199401b7d3d3932911</sys_id>
+        <sys_metadata>bc61705e97f13110d973be9fe153afb5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1115228_games_games.x_1115228_games.user</sys_name>
+        <sys_package display_value="Games" source="x_1115228_games">3f4ee01697f13110d973be9fe153af17</sys_package>
+        <sys_parent display_value="x_1115228_games_games">7061705e97f13110d973be9fe153afa7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Games">3f4ee01697f13110d973be9fe153af17</sys_scope>
+        <sys_scope_delete display_value="">1f9d6bb52ada4d8a84068f5dd8a6c504</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_bc61705e97f13110d973be9fe153afb5</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_bc61705e97f13110d973be9fe153afb5">3461705e97f13110d973be9fe153afb8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-23 12:08:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

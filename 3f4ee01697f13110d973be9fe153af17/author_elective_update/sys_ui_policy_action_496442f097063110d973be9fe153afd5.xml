@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>platform</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-20 11:56:16</sys_created_on>
+        <sys_id>496442f097063110d973be9fe153afd5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>platform</sys_name>
+        <sys_package display_value="Games" source="x_1115228_games">3f4ee01697f13110d973be9fe153af17</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Games">3f4ee01697f13110d973be9fe153af17</sys_scope>
+        <sys_update_name>sys_ui_policy_action_496442f097063110d973be9fe153afd5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-20 11:56:16</sys_updated_on>
+        <table>x_1115228_games_games</table>
+        <ui_policy display_value="Hide platform IDs as they serve only to display reference of platform table">ad348eb097063110d973be9fe153afbb</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Games">3f4ee01697f13110d973be9fe153af17</application>
+        <file_path/>
+        <instance_id>e13fb29cdb44b9dc05ef1729139619ef</instance_id>
+        <instance_name>dev180364</instance_name>
+        <name>sys_ui_policy_action_496442f097063110d973be9fe153afd5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>platform</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-10-20 11:56:16</sys_created_on><sys_id>496442f097063110d973be9fe153afd5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>platform</sys_name><sys_package display_value="Games" source="x_1115228_games">3f4ee01697f13110d973be9fe153af17</sys_package><sys_policy/><sys_scope display_value="Games">3f4ee01697f13110d973be9fe153af17</sys_scope><sys_update_name>sys_ui_policy_action_496442f097063110d973be9fe153afd5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-10-20 11:56:16</sys_updated_on><table>x_1115228_games_games</table><ui_policy display_value="Hide platform IDs as they serve only to display reference of platform table">ad348eb097063110d973be9fe153afbb</ui_policy><visible>false</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>538410183</payload_hash>
+        <record_name>platform</record_name>
+        <reverted_from/>
+        <source>4032fc5e97f13110d973be9fe153af2d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-20 11:56:16</sys_created_on>
+        <sys_id>e57442f097063110d973be9fe153afb9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b4cf17e600000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-20 11:56:16</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>2d7442f0af0631107fbecbb4a314b6b8</update_guid>
+        <update_guid_history>2d7442f0af0631107fbecbb4a314b6b8:538410183</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-23 18:10:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>1f6542a9d63a4f56917573e077131789</sys_id>
+        <sys_metadata>496442f097063110d973be9fe153afd5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>platform</sys_name>
+        <sys_package display_value="Games" source="x_1115228_games">3f4ee01697f13110d973be9fe153af17</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Games">3f4ee01697f13110d973be9fe153af17</sys_scope>
+        <sys_scope_delete display_value="">1f9d6bb52ada4d8a84068f5dd8a6c504</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_496442f097063110d973be9fe153afd5</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_496442f097063110d973be9fe153afd5">e57442f097063110d973be9fe153afb9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-23 18:10:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

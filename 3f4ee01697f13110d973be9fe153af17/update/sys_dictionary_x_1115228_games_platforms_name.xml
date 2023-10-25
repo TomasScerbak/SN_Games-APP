@@ -21,7 +21,7 @@
         <delete_roles/>
         <dependent/>
         <dependent_on_field/>
-        <display>false</display>
+        <display>true</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
         <dynamic_default_value/>
@@ -52,14 +52,13 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-12 11:41:24</sys_created_on>
-        <sys_id>b73430de97f13110d973be9fe153afe8</sys_id>
         <sys_name>Name</sys_name>
         <sys_package display_value="Games" source="x_1115228_games">3f4ee01697f13110d973be9fe153af17</sys_package>
         <sys_policy/>
         <sys_scope display_value="Games">3f4ee01697f13110d973be9fe153af17</sys_scope>
         <sys_update_name>sys_dictionary_x_1115228_games_platforms_name</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-12 11:41:24</sys_updated_on>
+        <sys_updated_on>2023-10-23 08:05:45</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

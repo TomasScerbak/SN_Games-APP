@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD6495a2f71e39711040298e6d40505dff</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>3f4ee01697f13110d973be9fe153af17</scope_name>
+        <serialized_content>{"FlowDesigner:FD6495a2f71e39711040298e6d40505dff":{"$COCollectionField":[{"games_child0":{"gameName":"String","gameName.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"gameName\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"e0e7328a-855f-4659-a70a-f13f20afaa68\"}"},"gameRating":"Integer","gameRating.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"gameRating\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"343d63eb-54d4-42e5-80ea-3c01a4dca14f\"}"},"playtime":"Integer","playtime.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"playtime\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\",\"uiUniqueId\":\"6fd950fa-a587-47c1-a331-fae5248543f4\"}"},"released":"Date","released.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Date/Time\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"glide_date_time\",\"default_value\":\"\",\"label\":\"released\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"28e5818b-a8e0-408e-a3bd-893d19d4ecc1\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Games\",\"mandatory\":\"false\",\"child_name\":\"games_child0\",\"uiUniqueId\":\"8888f257-1dc4-4d52-8b3f-ae4999656d34\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD6495a2f71e39711040298e6d40505dff\",\"child_label\":\"Games_child0\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"39a957cc-dcc6-49c5-b2da-1bede5d244d2\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD6495a2f71e39711040298e6d40505dff.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Games\",\"mandatory\":\"false\",\"child_name\":\"games_child0\",\"uiUniqueId\":\"8888f257-1dc4-4d52-8b3f-ae4999656d34\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD6495a2f71e39711040298e6d40505dff\",\"child_label\":\"Games_child0\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"39a957cc-dcc6-49c5-b2da-1bede5d244d2\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-17 11:47:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2895a2f797397110d973be9fe153afff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD6495a2f71e39711040298e6d40505dff</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Games" source="x_1115228_games">3f4ee01697f13110d973be9fe153af17</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Games">3f4ee01697f13110d973be9fe153af17</sys_scope>
+        <sys_update_name>sys_complex_object_2895a2f797397110d973be9fe153afff</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-17 11:47:00</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

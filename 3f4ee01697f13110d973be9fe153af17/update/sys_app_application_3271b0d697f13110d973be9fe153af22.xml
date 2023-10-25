@@ -7,14 +7,14 @@
         <hint>game application</hint>
         <name/>
         <order/>
-        <roles>x_1115228_games.admin,x_1115228_games.user</roles>
+        <roles>x_1115228_games.admin,x_1115228_games.user,x_1115228_games.editor</roles>
         <sys_class_name>sys_app_application</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-12 11:28:55</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3271b0d697f13110d973be9fe153af22</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Games</sys_name>
         <sys_overrides/>
         <sys_package display_value="Games" source="x_1115228_games">3f4ee01697f13110d973be9fe153af17</sys_package>
@@ -22,7 +22,7 @@
         <sys_scope display_value="Games">3f4ee01697f13110d973be9fe153af17</sys_scope>
         <sys_update_name>sys_app_application_3271b0d697f13110d973be9fe153af22</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-12 11:28:55</sys_updated_on>
+        <sys_updated_on>2023-10-20 13:46:13</sys_updated_on>
         <title>Games</title>
         <view_name/>
     </sys_app_application>
